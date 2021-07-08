@@ -120,6 +120,7 @@ docker run --env DB_CONN=redis://:password@ip:port/db -p 5010:5010 jhao104/proxy
 * 爬虫使用
 
 　　如果要在爬虫代码中使用的话， 可以将此api封装成函数直接使用，例如：
+   获取https类型的proxy ：http://127.0.0.1:5010/get/?type=https
 
 ```python
 import requests
